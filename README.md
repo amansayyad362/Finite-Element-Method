@@ -59,7 +59,3 @@ This is the **first installment** of an ongoing project. Upcoming goals include:
 ## Notes
 
 This project is primarily educational — a step toward understanding and building general FEM solvers for heat transfer and related PDEs.
-
----
-
-Would you like me to tailor it for **Python**, **MATLAB**, or a **language-neutral** presentation style (so it fits regardless of your implementation)?
