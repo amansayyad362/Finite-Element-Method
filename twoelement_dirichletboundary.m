@@ -104,12 +104,12 @@
             disp('Min U');
             disp(min(u))
         
-            %figure
-            %trisurf(elements, nodes(:,1), nodes(:,2), u, 'EdgeColor','k'); 
-            %xlabel('x'); 
-            %ylabel('y'); 
-            %zlabel('u'); 
-            %title('FEM solution with Dirichlet boundary');
+            figure
+            trisurf(elements, nodes(:,1), nodes(:,2), u, 'EdgeColor','k'); 
+            xlabel('x'); 
+            ylabel('y'); 
+            zlabel('u'); 
+            title('FEM solution with Dirichlet boundary');
         else
             disp('Global stiffness matrix is symmetric.');
         end
